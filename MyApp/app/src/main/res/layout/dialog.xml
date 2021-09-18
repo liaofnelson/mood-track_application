@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin15"
+        android:text="Photograph"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/textsize20"
+        android:background="@color/White"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:background="@color/Blue"
+         />
+    <TextView
+        android:background="@color/White"
+        android:id="@+id/pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin15"
+        android:text="Album"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/textsize20"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:background="@color/Blue"
+      />
+    <TextView
+
+        android:background="@color/White"
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin15"
+        android:text="Cancel"
+        android:textColor="@color/Blue"
+        android:textSize="@dimen/textsize20"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+</LinearLayout>

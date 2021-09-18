@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My NotePad</string>
+    <string name="help_string">This is a helpful passage.\n\n
+A simple diary app, where you can record your daily mood, interesting things you encounter,
+Of course, you can also write down your unhappiness, and then delete it, here you can!\n\n\n
+Maybe you can also modify the text. </string>
+</resources>
